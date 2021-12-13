@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- top section-->
+    <div class="intro">
+        <div class="container">
+            <h2 class="text-primary">Quiz</h2>
+            <h2 class="text-alert">Click me!</h2>
+
+        </div>
+    </div>
+
+    <!--Quiz section-->
+    <div class="quiz ">
+        <div class="container">
+            <h2 class="my-5">How much do you know about Capitals?</h2>
+           
+            <form class="quiz-form">
+                <div class="my-5">
+                    <p class="lead ">1.- What is the capital of Sweaden</p>
+                   <div class="form-check">
+                       <input type="radio" name="q1" value="A" checked>
+                       <label class="form-check-label">Copenhagen</label>
+                   </div> 
+                   <div class="form-check ">
+                    <input type="radio" name="q1" value="B" checked>
+                    <label class="form-check-label">Stockolmo</label>
+                </div>  
+                <div class="form-check ">
+                    <input type="radio" name="q1" value="C" checked>
+                    <label class="form-check-label">Oslo</label>
+                </div> 
+
+                </div>
+                <div class="my-5">
+                    <p class="lead ">2.-What is the capital of Lithuania</p>
+                   <div class="form-check">
+                       <input type="radio" name="q2" value="A" checked>
+                       <label class="form-check-label">Vilnius</label>
+                   </div> 
+                   <div class="form-check ">
+                    <input type="radio" name="q2" value="B" checked>
+                    <label class="form-check-label">Paris</label>
+                </div>  
+                <div class="form-check ">
+                    <input type="radio" name="q2" value="C" checked>
+                    <label class="form-check-label">Riga</label>
+                </div>   
+
+                </div>
+                <div class="my-5">
+                    <p class="lead">3.-What is the capital of Bulgary</p>
+                   <div class="form-check ">
+                       <input type="radio" name="q3" value="A" checked>
+                       <label class="form-check-label">Tallin</label>
+                   </div> 
+                   <div class="form-check ">
+                    <input type="radio" name="q3" value="B" checked>
+                    <label class="form-check-label">Sofia</label>
+                </div>  
+                <div class="form-check">
+                    <input type="radio" name="q3" value="C" checked>
+                    <label class="form-check-label">sarajevo</label>
+                </div>   
+
+                </div>
+                <br>
+                <br>
+                <div class="text-ceter ">
+                    <input type="submit" class="btn">
+                    
+                </div>
+
+            </form>
+        </div>
+        
+    </div>
+     <!--result section-->
+     <div class="result ">
+         <div class="container ">
+             <p>You have <span class="text-primary "> </span> correct answer</p>
+         </div>
+     </div>
+     <form action="form">
+        <label for="fname">Write your name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        
+      </form> 
+  
+    <script src="main.js"></script>
+</body>
+</html>
